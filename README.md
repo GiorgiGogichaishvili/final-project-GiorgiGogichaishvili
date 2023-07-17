@@ -1,2 +1,2 @@
-# final-ptoect-GiorgiGogichaishvili
+# final-project-GiorgiGogichaishvili
 final-ptoect-GiorgiGogichaishvili
