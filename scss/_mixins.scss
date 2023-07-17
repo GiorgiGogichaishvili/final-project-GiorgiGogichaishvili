@@ -1,0 +1,61 @@
+// Text Styles
+
+@mixin fontcomH1 {
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+@mixin fontcomH2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+@mixin fontcomH3 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+@mixin fontcomH4 {
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+@mixin fontcomH5 {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+@mixin fontcomH6 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+// Paragarph
+
+@mixin sizeparagarph {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
