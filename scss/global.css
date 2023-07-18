@@ -58,4 +58,112 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+header .container {
+  max-width: 1595px;
+  width: 100%;
+  margin: 0 auto;
+}
+header .box {
+  display: flex;
+  align-items: center;
+  max-width: 1595px;
+  width: 100%;
+  justify-content: space-between;
+  height: 204px;
+}
+header .box nav {
+  max-width: 564px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .box nav a {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+select {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+option {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.mainbox {
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #FAFAFA;
+  max-width: 376px;
+  width: 100%;
+  height: 66px;
+  border-radius: 36px;
+}
+.searchbar .circle-s1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #C6ED4B;
+}
+
+.shopbar {
+  display: flex;
+  align-items: center;
+  max-width: 159px;
+  width: 100%;
+  border: 1px solid #E0E0E0;
+  border-radius: 33px;
+  height: 66px;
+}
+.shopbar h2 {
+  color: #274C5B;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.shopbar .circle-s2 {
+  margin-right: 12px;
+  max-width: 56px;
+  width: 100%;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #02457A;
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=global.css.map */
