@@ -65,6 +65,11 @@ header .container {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 1380px) {
+  header .container {
+    width: 90%;
+  }
+}
 header .box {
   display: flex;
   align-items: center;
@@ -80,6 +85,7 @@ header .box nav {
   justify-content: space-between;
 }
 header .box nav a {
+  transition: 0.1s;
   color: #274C5B;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -87,12 +93,24 @@ header .box nav a {
   font-weight: 700;
   line-height: normal;
 }
+@media (max-width: 940px) {
+  header .box nav a {
+    display: none;
+  }
+}
+header .box nav a:hover {
+  font-size: 22px;
+  color: #9ac900;
+  transition: 0.1s;
+}
 
 select {
+  transition: 0.1s;
   border: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  outline: none;
   color: #274C5B;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -101,8 +119,15 @@ select {
   line-height: normal;
 }
 
+select:hover {
+  font-size: 22px;
+  color: #9ac900;
+  transition: 0.1s;
+}
+
 option {
-  color: #274C5B;
+  background-color: #02457A;
+  color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -127,6 +152,17 @@ option {
   height: 66px;
   border-radius: 36px;
 }
+.searchbar .searchbar-s1 {
+  display: flex;
+  border-radius: 40px;
+  position: relative;
+  left: -110px;
+  max-width: 350px;
+  height: 66px;
+  background-color: #FAFAFA;
+  border: none;
+  outline: none;
+}
 .searchbar .circle-s1 {
   display: flex;
   align-items: center;
@@ -146,6 +182,12 @@ option {
   border: 1px solid #E0E0E0;
   border-radius: 33px;
   height: 66px;
+  transition: 0.2s;
+}
+.shopbar :hover {
+  width: 31px;
+  height: 40px;
+  transition: 0.2s;
 }
 .shopbar h2 {
   color: #274C5B;
@@ -166,4 +208,32 @@ option {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.fa-bars-staggered {
+  display: none;
+}
+
+@media (max-width: 1380px) {
+  .searchbar {
+    display: none;
+  }
+  .searchbar-s1 {
+    display: none;
+  }
+  .shopbar {
+    display: none;
+  }
+  .circle-s1 {
+    display: none;
+  }
+  .circle-s2 {
+    display: none;
+  }
+  .mainbox {
+    display: none;
+  }
+  .fa-bars-staggered {
+    display: inline-block;
+  }
 }/*# sourceMappingURL=global.css.map */

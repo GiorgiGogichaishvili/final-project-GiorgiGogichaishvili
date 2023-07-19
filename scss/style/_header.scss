@@ -2,6 +2,11 @@ header {
     .container {
         @include startcontainer
     }
+    @media (max-width: 1380px) {
+        .container {
+            width: 90%;
+        }
+    }
     .box {
         display: flex;
         align-items: center;
@@ -17,20 +22,44 @@ header {
             justify-content: space-between;
             // border: 1px solid black;
             a {
+                transition: 0.1s;
                 @include headerfont
+            }
+            @media (max-width: 940px) {
+                a {
+                    display: none;
+                }
+            }
+            a:hover {
+            font-size: 22px ;
+            color: $Pri-s5 ;
+            transition: 0.1s;
             }
         }
     }
 }
 select {
+    transition: 0.1s;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    outline: none;
     @include headerfont
 }
+select:hover {
+     font-size: 22px ;
+     color: $Pri-s5 ;
+     transition: 0.1s;
+}
 option {
-    @include headerfont
+    background-color:  $Pri-s1;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 .mainbox {
     display: flex;
@@ -49,6 +78,17 @@ option {
     width: 100%;
     height: 66px;
     border-radius: 36px;
+    .searchbar-s1 {
+        display: flex;
+        border-radius: 40px;
+        position: relative;
+        left: -110px;
+        max-width: 350px;
+        height: 66px;
+        background-color: $sec-s4;
+        border: none;
+        outline: none;
+    }
     .circle-s1 {
         display: flex;
         align-items: center;
@@ -70,6 +110,12 @@ option {
     border: 1px solid #E0E0E0;
     border-radius: 33px;
     height: 66px;
+    transition: 0.2s;
+    :hover {
+        width: 31px;
+        height: 40px;
+        transition: 0.2s;
+    }
     h2 {
         color: #274C5B;
         font-family: 'Roboto', sans-serif;
@@ -89,10 +135,37 @@ option {
         margin-left: 6px;
         display: flex;
         align-items: center;
-        justify-content: center;
-        
+        justify-content: center;  
     } 
 }
+.fa-bars-staggered {
+    display: none;
+}
+@media (max-width:1380px){
+    .searchbar {
+        display: none;
+    }
+    .searchbar-s1 {
+        display: none;
+    }
+    .shopbar {
+        display: none;
+    }
+    .circle-s1 {
+        display: none;
+    }
+    .circle-s2 {
+        display: none;
+    }
+    .mainbox {
+        display: none;
+    }
+    .fa-bars-staggered {
+        display: inline-block;
+    }
+}
+
+
 
 
 
