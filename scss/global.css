@@ -78,6 +78,18 @@ header .box {
   justify-content: space-between;
   height: 204px;
 }
+@media (max-width: 940px) {
+  header .box img {
+    width: 70px;
+    height: 50px;
+  }
+}
+@media (max-width: 310px) {
+  header .box img {
+    width: 50px;
+    height: 30px;
+  }
+}
 header .box nav {
   max-width: 564px;
   width: 100%;
@@ -125,6 +137,11 @@ select:hover {
   transition: 0.1s;
 }
 
+@media (max-width: 666px) {
+  .ul-s1 {
+    display: none;
+  }
+}
 option {
   background-color: #02457A;
   color: #ffffff;
@@ -214,6 +231,16 @@ option {
   display: none;
 }
 
+@media (max-width: 940px) {
+  .fa-bars-staggered {
+    font-size: 27px;
+  }
+}
+@media (max-width: 310px) {
+  .fa-bars-staggered {
+    font-size: 20px;
+  }
+}
 @media (max-width: 1380px) {
   .searchbar {
     display: none;

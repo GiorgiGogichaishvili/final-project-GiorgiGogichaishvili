@@ -15,6 +15,18 @@ header {
         justify-content: space-between;
         // border: 1px solid black;
         height: 204px;
+        @media (max-width: 940px) {
+            img {
+                width: 70px;
+                height: 50px;
+            }
+        }
+        @media (max-width: 310px) {
+            img {
+                width: 50px;
+                height: 30px;
+            }
+        }
         nav {
             max-width:564px;
             width: 100%;
@@ -52,6 +64,11 @@ select:hover {
      color: $Pri-s5 ;
      transition: 0.1s;
 }
+@media (max-width: 666px) {
+    .ul-s1 {
+       display: none;
+    }
+}
 option {
     background-color:  $Pri-s1;
     color: #ffffff;
@@ -61,6 +78,7 @@ option {
     font-weight: 700;
     line-height: normal;
 }
+
 .mainbox {
     display: flex;
     // border: 1px solid black;
@@ -141,6 +159,16 @@ option {
 .fa-bars-staggered {
     display: none;
 }
+@media (max-width: 940px) {
+    .fa-bars-staggered {
+       font-size: 27px;
+    }
+}
+@media (max-width: 310px) {
+    .fa-bars-staggered {
+       font-size: 20px;
+    }
+}
 @media (max-width:1380px){
     .searchbar {
         display: none;
@@ -164,6 +192,7 @@ option {
         display: inline-block;
     }
 }
+
 
 
 
