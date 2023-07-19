@@ -90,6 +90,11 @@ header .box {
     height: 30px;
   }
 }
+@media (max-width: 940px) {
+  header .box img {
+    margin-top: -100px;
+  }
+}
 header .box nav {
   max-width: 564px;
   width: 100%;
@@ -137,6 +142,11 @@ select:hover {
   transition: 0.1s;
 }
 
+@media (max-width: 940px) {
+  .ul-s1 {
+    margin-top: -62px;
+  }
+}
 @media (max-width: 666px) {
   .ul-s1 {
     display: none;
@@ -262,5 +272,10 @@ option {
   }
   .fa-bars-staggered {
     display: inline-block;
+  }
+}
+@media (max-width: 940px) {
+  .fa-bars-staggered {
+    margin-top: -100px;
   }
 }/*# sourceMappingURL=global.css.map */
