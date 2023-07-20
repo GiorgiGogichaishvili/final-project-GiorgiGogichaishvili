@@ -278,4 +278,16 @@ option {
   .fa-bars-staggered {
     margin-top: -100px;
   }
+}
+.s1 .container {
+  max-width: 1595px;
+  width: 100%;
+  margin: 0 auto;
+}
+.s1 .background {
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }/*# sourceMappingURL=global.css.map */

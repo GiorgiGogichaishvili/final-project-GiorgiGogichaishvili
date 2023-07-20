@@ -1,0 +1,15 @@
+.s1 {
+    .container {
+        @include startcontainer
+    }
+    .background {
+
+        height: 700px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+
+    }
+}
