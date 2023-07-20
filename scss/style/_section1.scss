@@ -1,15 +1,81 @@
 .s1 {
+    height: 800px;
     .container {
         @include startcontainer
     }
-    .background {
-
-        height: 700px;
-        width: 100%;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    
-
+}
+.backgroundimg {
+    background-image: url("../../images/foodimg.jpg");
+    height: 898px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    h2 {
+        color: #68A47F;
+        font-family: 'Yellowtail', cursive;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 8px;
+    }
+    @media (max-width:1343px) {
+        h2 {
+            display: flex;
+            
+            align-items: center;
+        }
+    }
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        max-width: 514px;
+        height: 246px;
+        color: #274C5B;
+        margin-bottom: 23px;
+    }
+    .input-s2 { 
+        width: 220px;
+        height: 79px;
+        color: #274C5B;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 16px;
+        color: white;
+        background-color: $Pri-s3;
+        border: none;
+        box-shadow: 2px 1px 4px 3px #e4e4e4;
+        text-shadow: 2px 1px rgba(1, 1, 1, 0.17) ;
+        box-shadow: inset 0 0 10px #f8a100;
+        transition: 0.4s;
+        cursor: pointer;
     }
 }
+.input-s2:hover {
+    width: 220px;
+    height: 75px;
+    color: $Pri-s2;
+    background-color: $Pri-s1;
+    box-shadow: none;
+    box-shadow: inset 0 0 12px #0101014f;
+    transition: 0.4s;
+}
+.frontimg {
+    background-image: url("../../images/front.svg");
+    height: 898px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 247px;
+    padding-left: 260px;
+}
+
+
