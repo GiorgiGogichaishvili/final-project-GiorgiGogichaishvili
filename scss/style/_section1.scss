@@ -1,15 +1,14 @@
 .s1 {
+    height: 500px;
     .container {
-        @include startcontainer
+        @include startcontainer;
     }
     .background {
-
         height: 700px;
         width: 100%;
+        background-image: url("../../images/food.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-    
-
     }
 }
