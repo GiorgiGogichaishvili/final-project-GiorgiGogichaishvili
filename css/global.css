@@ -346,7 +346,7 @@ option {
 }
 
 .backgroundimg {
-  background-image: url("../../images/foodimg.jpg");
+  background-image: url("../images/foodimg.jpg");
   height: 898px;
   width: 100%;
   background-repeat: no-repeat;
@@ -451,7 +451,7 @@ option {
 }
 
 .frontimg {
-  background-image: url("../../images/front.svg");
+  background-image: url("../images/front.svg");
   height: 898px;
   width: 100%;
   background-repeat: no-repeat;
