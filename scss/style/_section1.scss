@@ -1,13 +1,8 @@
 .s1 {
-<<<<<<< HEAD
     height: 800px;
-=======
-    height: 500px;
->>>>>>> 9927d85d5bd85725a21835383c5cbe306ddbe661
     .container {
         @include startcontainer;
     }
-<<<<<<< HEAD
 }
 .backgroundimg {
     background-image: url("../../images/foodimg.jpg");
@@ -84,14 +79,3 @@
 }
 
 
-=======
-    .background {
-        height: 700px;
-        width: 100%;
-        background-image: url("../../images/food.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-}
->>>>>>> 9927d85d5bd85725a21835383c5cbe306ddbe661

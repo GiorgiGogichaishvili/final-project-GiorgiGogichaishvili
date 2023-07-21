@@ -116,7 +116,7 @@ header .box nav a {
   -webkit-transition: 0.1s;
   -o-transition: 0.1s;
   transition: 0.1s;
-  color: #274C5B;
+  color: #274c5b;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -151,7 +151,7 @@ select {
       -ms-flex-pack: center;
           justify-content: center;
   outline: none;
-  color: #274C5B;
+  color: #274c5b;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
