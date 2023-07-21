@@ -362,6 +362,11 @@ option {
   line-height: normal;
   margin-bottom: 8px;
 }
+@media (max-width: 439px) {
+  .backgroundimg h2 {
+    font-size: 30px;
+  }
+}
 @media (max-width: 1343px) {
   .backgroundimg h2 {
     display: -webkit-box;
@@ -406,6 +411,30 @@ option {
   transition: 0.4s;
   cursor: pointer;
 }
+@media (max-width: 517px) {
+  .backgroundimg .input-s2 {
+    width: 177px;
+    height: 65px;
+    margin-top: 10px;
+    font-size: 17px;
+  }
+}
+@media (max-width: 439px) {
+  .backgroundimg .input-s2 {
+    width: 170px;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 374px) {
+  .backgroundimg .input-s2 {
+    width: 170px;
+    height: 60px;
+    margin-top: 90px;
+    font-size: 15px;
+  }
+}
 
 .input-s2:hover {
   width: 220px;
@@ -430,4 +459,67 @@ option {
   background-size: cover;
   padding-top: 247px;
   padding-left: 260px;
+}
+
+@media (max-width: 1771px) {
+  .frontimg {
+    padding-left: 90px;
+  }
+}
+@media (max-width: 1380px) {
+  .frontimg {
+    padding: 0%;
+  }
+}
+@media (max-width: 1380px) {
+  .frontimg {
+    padding: 0%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media (max-width: 1380px) and (max-width: 1380px) {
+  .frontimg h3 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    max-width: 514px;
+    height: 246px;
+    color: #274C5B;
+    margin-bottom: 23px;
+    max-width: 550px;
+    height: 200px;
+  }
+}
+@media (max-width: 1380px) and (max-width: 1380px) and (max-width: 468px) {
+  .frontimg h3 h3 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    max-width: 514px;
+    height: 246px;
+    color: #274C5B;
+    margin-bottom: 23px;
+    max-width: 550px;
+    height: 200px;
+  }
 }/*# sourceMappingURL=global.css.map */

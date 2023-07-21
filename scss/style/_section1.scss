@@ -20,10 +20,14 @@
         line-height: normal;
         margin-bottom: 8px;
     }
+    @media (max-width:439px) {
+        h2 {
+            font-size: 30px;
+        }
+    }
     @media (max-width:1343px) {
         h2 {
             display: flex;
-            
             align-items: center;
         }
     }
@@ -57,6 +61,30 @@
         transition: 0.4s;
         cursor: pointer;
     }
+    @media (max-width:517px) {
+        .input-s2 {
+            width: 177px;
+            height: 65px;
+            margin-top: 10px;
+            font-size: 17px;
+        }
+    }
+    @media (max-width:439px) {
+        .input-s2 {
+            width: 170px;
+            height: 60px;
+            margin-top: 30px;
+            font-size: 15px;
+        }
+    }
+    @media (max-width:374px) {
+        .input-s2 {
+            width: 170px;
+            height: 60px;
+            margin-top: 90px;
+            font-size: 15px;
+        }
+    }
 }
 .input-s2:hover {
     width: 220px;
@@ -77,5 +105,56 @@
     padding-top: 247px;
     padding-left: 260px;
 }
-
+@media (max-width:1771px) {
+    .frontimg {
+        padding-left: 90px;
+    }
+}
+@media (max-width:1380px) {
+    .frontimg {
+        padding: 0%;
+    }
+}
+@media (max-width:1380px) {
+    .frontimg {
+        padding: 0%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        @media (max-width:1380px) {
+            h3 {
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                max-width: 514px;
+                height: 246px;
+                color: #274C5B;
+                margin-bottom: 23px;
+                max-width: 550px;
+                height: 200px; 
+                @media (max-width:468px) {
+                    h3 {
+                        text-align: center;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 800;
+                        line-height: normal;
+                        max-width: 514px;
+                        height: 246px;
+                        color: #274C5B;
+                        margin-bottom: 23px;
+                        max-width: 550px;
+                        height: 200px; 
+                    }
+                }
+            }
+        }
+    }
+}
 
