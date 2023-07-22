@@ -1,0 +1,113 @@
+.s-2 {
+    padding-top: 154px;
+    padding-bottom: 190px;
+    .container {
+        @include startcontainer
+    }
+    .flex-gap {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 36px;
+        justify-content: center;
+        display: flex;
+      }
+    .div-box {
+        padding-top: 109px;
+        padding-left: 54.88px;
+        width: 682.244px;
+        height: 367px;
+        flex-shrink: 0;
+        // border: 1px solid black;
+        border-radius: 30px;
+        background: #E6E7E9;
+        background-image: url(../images/Photo-s1.jpg);      
+        h2 {
+            width: 131px;
+            height: 49px;
+            color: #FFF;
+            font-family: 'Yellowtail', cursive;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 5px;
+        }
+        h3 {
+            width: 250.633px;
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+    }
+    @media (max-width:700px) {
+        .div-box {
+            width: 440.244px;
+            height: 367px;
+        }
+    } 
+    @media (max-width:490px) {
+        .div-box {
+            width: 350.244px;
+            height: 260px;
+            padding: 0%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    } 
+}
+.div-box-s2 {
+    padding-top: 109px;
+    padding-left: 54.88px;
+    width: 682.244px;
+    height: 367px;
+    flex-shrink: 0;
+    // border: 1px solid black;
+    border-radius: 30px;
+    background: #E6E7E9;
+    background-image: url(../images/Photo-s2.jpg);
+    .h2-s2 {
+        width: 131px;
+        height: 49px;
+        color: #7EB693;
+        font-family: 'Yellowtail', cursive;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 5px;
+    }
+    .h3-s2 {
+        width: 250.633px;
+        color: $Pri-s1;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    } 
+}
+@media (max-width:700px) {
+    .div-box-s2 {
+        width: 440.244px;
+        height: 367px;
+    }
+} 
+@media (max-width:490px) {
+    .div-box-s2 {
+        width: 350.244px;
+        height: 260px;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+} 
+
