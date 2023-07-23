@@ -1,79 +1,200 @@
 .s-3 {
     background-color:#F9F8F8; 
-    max-width: 1920px;
+    // max-width: 1920px;
     width: 100%;
     height: 1067px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
     .container {
-        @include startcontainer
+        @include startcontainer1
     }
     .flex-div {
         display: flex;
         // border: 1px solid black;
     }  
+    @media (max-width:1365px) {
+        .flex-div{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
     .position-div {
         display: flex;
+        max-width: auto;
+        // border: 1px solid black;
+        justify-content: center;
+        img {
+            // border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    @media (max-width:975px) {
+        img{
+            height: 480px;
+            max-width: 100%;
+            // border: 1px solid black;
+        }
+    }
+    @media (max-width:975px) {
+        .position-div{
+            height: 500px;
+            max-width: 100%;
+        }
+    }
+    @media (max-width:928px) {
+        .position-div{
+            height: 400px;
+            max-width:100%;
+        }
     }
 }
+@media (max-width:1365px) {
+    .s-3{
+        width: 100%;
+        height: 1800px;
+    }
+}
+@media (max-width:976px) {
+    .s-3 {
+        
+    width: 100%;
+    height: 1400px;
+ }
+ }
 .text-position-s2 {
     // border: 1px solid black;
     width: 100%;
-    padding-top: 140px;
+    height: 890px;
+    padding-top: 70px;
     align-items: center;
     h2 {
-        width: 117.832px;
+        max-width: 117.832px;
         color: #7EB693;
         font-family: 'Yellowtail', cursive;
-        font-size: 36px;
+        font-size: 33px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        margin-bottom: 8px;
+        margin-bottom: 7px;
+    }
+    @media (max-width:915px) {
+        h2 {
+            font-size: 30px;
+        }
+    }
+    @media (max-width:610px) {
+        h2 {
+            font-size: 25px;
+        }
     }
     h3 {
-        width: 702px;
+        max-width: 702px;
         color: #274C5B;
         font-family:'Roboto', sans-serif;
-        font-size: 50px;
+        font-size: 44px;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
-        margin-bottom: 14px;
+        margin-bottom: 13px;
+    }
+    @media (max-width:915px) {
+        h3 {
+            max-width: auto;
+            font-size: 33px;
+            margin-bottom: 13px;
+        }
+    }
+    @media (max-width:915px) {
+        h3 {
+            font-size: 26px;
+        }
     }
     p {
-        width: 500px;
+        max-width: 500px;
         height: 90px;
         color: #525C60;
         font-family: Open Sans;
-        font-size: 18px;
+        font-size: 17px;
         font-style: normal;
         font-weight: 400;
         line-height: 165.4%; /* 29.772px */
-        margin-bottom: 46px;
+        margin-bottom: 43px;
+    }
+    @media (max-width:915px) {
+        p {
+            max-width: 450px;
+            font-size: 15px;
+            margin-bottom:15px ;
+            margin-top: 20px;
+        }
+    }
+    @media (max-width:915px) {
+        p {
+            font-size: 14px;
+            height: 40px;
+            margin-bottom: 14px;
+            margin-top: 20px;
+        }
+    }
+}
+@media (max-width:1365px) {
+    .text-position-s2{
+        padding-top: 70px;
+        text-align: center;
+        max-width: auto;
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
     }
 }
 .small-card {
-    width: 390px;
+    max-width:390px;
     height: 96px;
+    margin-bottom: 40px;
+    
     h5 {
         color: #274C5B;
         font-family: Roboto;
-        font-size: 25px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
         margin-bottom: 7px;
     }
+    @media (max-width:915px) {
+        h5 {
+            max-width: auto;
+            font-size: 23px;
+            
+        }
+    }
+    @media (max-width:915px) {
+        h5 {
+            font-size: 18px;
+        }
+    }
     h6 {
         color: #525C60;
         font-family: Open Sans;
-        font-size: 18px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 165.4%; /* 29.772px */
-        margin-bottom: 35px;
+    }
+    @media (max-width:915px) {
+        h6 {
+            font-size: 16px;
+        }
+    }
+    @media (max-width:915px) {
+        h3 {
+            max-width: auto;
+            font-size: 16px;
+        }
     }
     .input-s3 { 
         width: 220px;
@@ -85,7 +206,7 @@
         font-weight: 700;
         line-height: normal;
         border-radius: 16px;
-        color: white;
+        color: $Pri-s2;
         background-color: $Pri-s1;
         border: none;
         box-shadow: 2px 1px 4px 3px #e4e4e4;
@@ -94,16 +215,23 @@
         transition: 0.4s;
         outline: none;
         cursor: pointer;
+        margin-top: 48px;
     }
     .input-s3:hover {
         width: 220px;
         height: 75px;
-        color: $Pri-s1;
+        color: white;
         background-color: $Pri-s3;
         box-shadow: none;
-        box-shadow: 2px 1px 4px 3px #e4e4e4;
+        box-shadow: 2px 1px 2px 3px #e4e4e4;
         text-shadow: 2px 1px rgba(1, 1, 1, 0.261) ;
-        box-shadow: inset 0 0 10px #f8a100;
+        box-shadow: inset 0 0 12px #f8a100;
         transition: 0.4s;
     }
 }
+@media (max-width:915px) {
+    .small-card {
+        margin-top: 70px;
+    }
+}
+
