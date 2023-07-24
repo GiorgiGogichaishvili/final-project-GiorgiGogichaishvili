@@ -330,6 +330,157 @@ option {
     margin-top: -100px;
   }
 }
+.s-4 .container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.s-4 .position-div-s3 {
+  margin-top: 176px;
+  margin-bottom: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.s-4 .text-div-s3 {
+  width: 300px;
+  height: 120px;
+  text-align: center;
+}
+.s-4 .text-div-s3 .titleh5 {
+  color: #7EB693;
+  font-family: "Yellowtail", cursive;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.s-4 .text-div-s3 .title-s2 {
+  margin-top: 8px;
+  color: #274C5B;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.s-4 .flexgap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20.09px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.s-4 .card-div {
+  width: 335px;
+  height: 483px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 30px;
+  background: #F9F8F8;
+}
+.s-4 .card-div .div-title {
+  margin-top: 29px;
+  margin-left: 30px;
+  margin-bottom: 13px;
+  width: 96px;
+  height: 36px;
+  border-radius: 8px;
+  background: #274C5B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px 12px 6px 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.s-4 .card-div .div-title .titleh2 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.s-4 .card-div .img-s1 {
+  background-image: url("../images/vegetable.jpg");
+  width: 335.23px;
+  height: 324px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.s-4 .card-div .Pricesection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.s-4 .card-div .Pricesection h4 {
+  margin-left: 30px;
+  color: #274C5B;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.s-4 .card-div hr {
+  stroke-width: 1px;
+  stroke: #DEDDDD;
+  max-width: 274.988px;
+}
+.s-4 .card-div .Pricesection2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.s-4 .card-div .Pricesection2 .h4-price {
+  text-decoration-line: line-through;
+  margin-left: 31px;
+  color: #B8B8B8;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.s-4 .card-div .Pricesection2 .h5-price {
+  margin-right: 81px;
+  margin-left: 8px;
+  color: #274C5B;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .s-3 {
   background-color: #F9F8F8;
   width: 100%;

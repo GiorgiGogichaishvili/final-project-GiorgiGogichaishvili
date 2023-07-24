@@ -71,11 +71,19 @@
     font-weight: 700;
     line-height: normal;
 }
+@mixin fontcomtitle {
+    color: #7EB693;
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 // Paragarph
 
 @mixin sizeparagarph {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
