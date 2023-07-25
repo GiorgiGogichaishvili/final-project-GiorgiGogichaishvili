@@ -335,6 +335,11 @@ option {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 490px) {
+  .s-4 .container {
+    width: 90%;
+  }
+}
 .s-4 .position-div-s3 {
   margin-top: 176px;
   margin-bottom: 40px;
@@ -372,6 +377,11 @@ option {
   font-weight: 800;
   line-height: normal;
 }
+@media (max-width: 390px) {
+  .s-4 .text-div-s3 .title-s2 {
+    font-size: 40px;
+  }
+}
 .s-4 .flexgap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -386,6 +396,11 @@ option {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media (max-width: 390px) {
+  .s-4 .flexgap {
+    margin-top: 70px;
+  }
+}
 .s-4 .card-div {
   width: 335px;
   height: 483px;
@@ -398,7 +413,7 @@ option {
   margin-top: 29px;
   margin-left: 30px;
   margin-bottom: 13px;
-  width: 96px;
+  max-width: 96px;
   height: 36px;
   border-radius: 8px;
   background: #274C5B;
@@ -425,10 +440,18 @@ option {
 }
 .s-4 .card-div .img-s1 {
   background-image: url("../images/vegetable.jpg");
-  width: 335.23px;
+  max-width: 335.23px;
   height: 324px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 390px) {
+  .s-4 .card-div .img-s1 {
+    background-position: center;
+    background-size: cover;
+  }
 }
 .s-4 .card-div .Pricesection {
   display: -webkit-box;
@@ -479,6 +502,16 @@ option {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+@media (max-width: 390px) {
+  .s-4 .card-div img {
+    display: none;
+  }
+}
+@media (max-width: 390px) {
+  .s-4 .card-div {
+    width: 250px;
+  }
 }
 
 .s-3 {
@@ -795,6 +828,11 @@ option {
   line-height: normal;
   margin-bottom: 5px;
 }
+@media (max-width: 374px) {
+  .s-2 .div-box h2 {
+    font-size: 30px;
+  }
+}
 .s-2 .div-box h3 {
   width: 250.633px;
   color: #FFF;
@@ -803,6 +841,11 @@ option {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+@media (max-width: 374px) {
+  .s-2 .div-box h3 {
+    font-size: 25px;
+  }
 }
 @media (max-width: 700px) {
   .s-2 .div-box {
@@ -829,6 +872,18 @@ option {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
+  }
+}
+@media (max-width: 374px) {
+  .s-2 .div-box {
+    width: 300.244px;
+    height: 300px;
+  }
+}
+@media (max-width: 374px) {
+  .s-2 .div-box {
+    width: 250.244px;
+    height: 300px;
   }
 }
 
@@ -854,6 +909,11 @@ option {
   line-height: normal;
   margin-bottom: 5px;
 }
+@media (max-width: 374px) {
+  .div-box-s2 .h2-s2 {
+    font-size: 30px;
+  }
+}
 .div-box-s2 .h3-s2 {
   width: 250.633px;
   color: #274C5B;
@@ -862,6 +922,11 @@ option {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+@media (max-width: 374px) {
+  .div-box-s2 .h3-s2 {
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -891,24 +956,46 @@ option {
     text-align: center;
   }
 }
-.s1 {
+@media (max-width: 374px) {
+  .div-box-s2 {
+    width: 300.244px;
+    height: 300px;
+  }
+}
+@media (max-width: 374px) {
+  .div-box-s2 {
+    width: 250.244px;
+    height: 300px;
+  }
+}
+.s-1 {
   height: 800px;
 }
-.s1 .container {
+.s-1 .container {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 490px) {
+  .s-1 .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1380px) {
+  .s-1 .container {
+    width: 90%;
+  }
+}
 
-.backgroundimg {
-  background-image: url("../images/foodimg.jpg");
+.s-1 {
+  background-image: url("../images/front.svg"), url("../images/foodimg.jpg ");
   height: 898px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.backgroundimg h2 {
+.s-1 h2 {
   color: #68A47F;
   font-family: "Yellowtail", cursive;
   font-size: 36px;
@@ -917,13 +1004,13 @@ option {
   line-height: normal;
   margin-bottom: 8px;
 }
-@media (max-width: 439px) {
-  .backgroundimg h2 {
-    font-size: 30px;
+@media (max-width: 468px) {
+  .s-1 h2 {
+    font-size: 26px;
   }
 }
 @media (max-width: 1343px) {
-  .backgroundimg h2 {
+  .s-1 h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -932,7 +1019,7 @@ option {
             align-items: center;
   }
 }
-.backgroundimg h3 {
+.s-1 h3 {
   font-family: "Roboto", sans-serif;
   font-size: 55px;
   font-style: normal;
@@ -943,7 +1030,20 @@ option {
   color: #274C5B;
   margin-bottom: 23px;
 }
-.backgroundimg .input-s2 {
+@media (max-width: 1380px) {
+  .s-1 h3 {
+    text-align: center;
+    font-size: 44px;
+  }
+}
+@media (max-width: 468px) {
+  .s-1 h3 {
+    text-align: center;
+    font-size: 25px;
+    height: 100px;
+  }
+}
+.s-1 .input-s2 {
   width: 220px;
   height: 79px;
   color: #274C5B;
@@ -967,26 +1067,26 @@ option {
   cursor: pointer;
 }
 @media (max-width: 517px) {
-  .backgroundimg .input-s2 {
+  .s-1 .input-s2 {
     width: 177px;
     height: 65px;
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 17px;
   }
 }
 @media (max-width: 439px) {
-  .backgroundimg .input-s2 {
+  .s-1 .input-s2 {
     width: 170px;
     height: 60px;
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 15px;
   }
 }
 @media (max-width: 370px) {
-  .backgroundimg .input-s2 {
+  .s-1 .input-s2 {
     width: 170px;
     height: 60px;
-    margin-top: 100px;
+    margin-top: 40px;
     font-size: 15px;
   }
 }
@@ -1005,14 +1105,13 @@ option {
 }
 
 .frontimg {
-  background-image: url("../images/front.svg");
   height: 898px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   padding-top: 247px;
-  padding-left: 260px;
+  padding-left: 100px;
 }
 
 @media (max-width: 1771px) {
@@ -1043,37 +1142,5 @@ option {
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-}
-@media (max-width: 1380px) and (max-width: 1380px) {
-  .frontimg h3 {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    max-width: 514px;
-    height: 246px;
-    color: #274C5B;
-    margin-bottom: 23px;
-    max-width: 550px;
-    height: 200px;
-  }
-}
-@media (max-width: 1380px) and (max-width: 1380px) and (max-width: 468px) {
-  .frontimg h3 h3 {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    max-width: 514px;
-    height: 246px;
-    color: #274C5B;
-    margin-bottom: 23px;
-    max-width: 550px;
-    height: 200px;
   }
 }/*# sourceMappingURL=global.css.map */
