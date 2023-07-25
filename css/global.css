@@ -330,6 +330,140 @@ option {
     margin-top: -100px;
   }
 }
+.s-5 {
+  margin-top: 176px;
+  background-image: url("../images/back.jpg");
+  height: 898px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.s-5 .container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.s-5 .container .con-div {
+  height: 896px;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.s-5 .container .position-div-s5 {
+  max-width: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.s-5 .container .position-div-s5 .h2-login {
+  font-family: "Yellowtail", cursive;
+  color: #7EB693;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 665px) {
+  .s-5 .container .position-div-s5 .h2-login {
+    font-size: 55px;
+    text-align: center;
+  }
+}
+.s-5 .container .position-div-s5 .h1-title {
+  font-family: "Yellowtail", cursive;
+  font-weight: 700;
+  color: #274C5B;
+  font-size: 25px;
+  font-style: normal;
+  line-height: normal;
+  margin-bottom: 60px;
+  margin-top: 5px;
+}
+.s-5 .container .position-div-s5 form {
+  max-width: 602px;
+  width: 100%;
+}
+.s-5 .container .position-div-s5 input {
+  max-width: 602px;
+  height: 90px;
+  margin-bottom: 44px;
+  outline: none;
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.s-5 .container .position-div-s5 input:hover {
+  background-color: #ecf9f0;
+}
+.s-5 .container .position-div-s5 input[type=text] {
+  padding: 15px;
+  color: #274c5b;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.s-5 .container .position-div-s5 .input-s5 {
+  max-width: 602px;
+  width: 100%;
+}
+.s-5 .container .position-div-s5 .input-s6 {
+  max-width: 602px;
+  width: 100%;
+}
+.s-5 .container .position-div-s5 .submit-s1 {
+  max-width: 602px;
+  width: 100%;
+  background-color: #FCC055;
+  list-style: none;
+}
+.s-5 .container .position-div-s5 input[type=submit] {
+  padding: 12px;
+  color: #274c5b;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.s-5 .container .position-div-s5 input[type=submit]:hover {
+  color: #7EB693;
+  background-color: #274c5b;
+}
+@media (max-width: 665px) {
+  .s-5 .container {
+    width: 90%;
+  }
+}
+
 .s-4 .container {
   max-width: 1440px;
   width: 100%;

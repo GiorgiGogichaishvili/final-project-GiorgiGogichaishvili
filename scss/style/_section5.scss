@@ -1,0 +1,116 @@
+.s-5{
+    margin-top: 176px;
+    background-image: url("../images/back.jpg");
+    height: 898px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        // border: 1px solid rebeccapurple;
+        .con-div {
+            height: 896px;
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            // border: 1PX SOLID rgb(255, 0, 0);
+        }
+        .position-div-s5 {
+            max-width: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            // border: 1px solid black;
+            .h2-login {
+                font-family: 'Yellowtail', cursive;
+                color: #7EB693;
+                font-size: 80px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            @media (max-width:665px) {
+                .h2-login {
+                    font-size: 55px;
+                    text-align: center;
+                }
+            }
+            .h1-title{
+                font-family: 'Yellowtail', cursive;
+                font-weight: 700;
+                color: $Pri-s1;
+                font-size: 25px;
+                font-style: normal;
+                line-height: normal;
+                margin-bottom: 60px;
+                margin-top: 5px;
+            }
+            form{
+                max-width: 602px;
+                width: 100%;
+            }
+           input {
+            max-width: 602px;
+            height: 90px;
+            margin-bottom: 44px;
+            outline: none;
+            border: none;
+            transition: 0.3s;
+           }
+           input:hover{
+            background-color:#ecf9f0;
+           }
+           input[type=text] {
+            padding: 15px;
+            color: #274c5b;
+            font-family: "Roboto", sans-serif;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+           }
+           .input-s5{
+            max-width: 602px;
+            width: 100%;
+           }
+           .input-s6{
+            max-width: 602px;
+            width: 100%;
+           }
+           .submit-s1 {
+            max-width: 602px;
+            width: 100%;
+            background-color: #FCC055;
+            list-style: none;
+           }
+           input[type=submit] {
+            padding: 12px;
+            color: #274c5b;
+            font-family: "Roboto", sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            border: none;
+            transition: 0.4s;
+            cursor: pointer;
+           }
+           input[type=submit]:hover {
+            color: #7EB693;
+            background-color: #274c5b;
+           }
+        }
+    }
+    @media (max-width:665px) {
+        .container {
+           width: 90%;
+        }
+    }
+}
