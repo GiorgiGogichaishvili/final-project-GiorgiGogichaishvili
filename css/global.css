@@ -408,6 +408,8 @@ option {
       flex-shrink: 0;
   border-radius: 30px;
   background: #F9F8F8;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(245, 245, 245, 0.7960784314);
+          box-shadow: 1px 1px 1px 1px rgba(245, 245, 245, 0.7960784314);
 }
 .s-4 .card-div .div-title {
   margin-top: 29px;
@@ -439,7 +441,70 @@ option {
   line-height: normal;
 }
 .s-4 .card-div .img-s1 {
-  background-image: url("../images/vegetable.jpg");
+  background-image: url("../images/img-s1.jpg");
+  max-width: 335.23px;
+  height: 324px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-position: center;
+  background-size: cover;
+}
+.s-4 .card-div .img-s2 {
+  background-image: url("../images/img-s2.jpg");
+  max-width: 335.23px;
+  height: 324px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-position: center;
+  background-size: cover;
+}
+.s-4 .card-div .img-s3 {
+  background-image: url("../images/img-s3.jpg");
+  max-width: 335.23px;
+  height: 324px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-position: center;
+  background-size: cover;
+}
+.s-4 .card-div .img-s4 {
+  background-image: url("../images/img-s4.jpg");
+  max-width: 335.23px;
+  height: 324px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-position: center;
+  background-size: cover;
+}
+.s-4 .card-div .img-s5 {
+  background-image: url("../images/img-s5.jpg");
+  max-width: 335.23px;
+  height: 324px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-position: center;
+  background-size: cover;
+}
+.s-4 .card-div .img-s6 {
+  background-image: url("../images/img-s6.jpg");
+  max-width: 335.23px;
+  height: 324px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-position: center;
+  background-size: cover;
+}
+.s-4 .card-div .img-s7 {
+  background-image: url("../images/img-s7.jpg");
+  max-width: 335.23px;
+  height: 324px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-position: center;
+  background-size: cover;
+}
+.s-4 .card-div .img-s8 {
+  background-image: url("../images/img-s8.jpg");
   max-width: 335.23px;
   height: 324px;
   -ms-flex-negative: 0;
@@ -462,6 +527,7 @@ option {
           justify-content: flex-start;
 }
 .s-4 .card-div .Pricesection h4 {
+  margin-top: 6px;
   margin-left: 30px;
   color: #274C5B;
   text-align: center;
