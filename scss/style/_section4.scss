@@ -74,6 +74,8 @@
             justify-content: center;
             align-items: center;
             gap: 10px;
+            transition: 0.2s;
+            cursor: pointer;
             .titleh2 {
                 color: #FFF;
                 text-align: center;
@@ -82,8 +84,14 @@
                 font-style: normal;
                 font-weight: 600;
                 line-height: normal;
+                transition: 0.002s;
             }
         }
+            .div-title:hover {
+                max-width: 98px;
+                height: 36px;
+                background: #7EB693;
+            }
         .img-s1{
             background-image: url("../images/img-s1.jpg");
             max-width: 335.23px;

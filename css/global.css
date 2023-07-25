@@ -430,6 +430,9 @@ option {
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
 }
 .s-4 .card-div .div-title .titleh2 {
   color: #FFF;
@@ -439,6 +442,13 @@ option {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  -webkit-transition: 0.002s;
+  transition: 0.002s;
+}
+.s-4 .card-div .div-title:hover {
+  max-width: 98px;
+  height: 36px;
+  background: #7EB693;
 }
 .s-4 .card-div .img-s1 {
   background-image: url("../images/img-s1.jpg");
