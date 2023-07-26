@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/36ebf21995.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/36ebf21995.js" crossorigin="anonymous"></script> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
@@ -312,6 +312,52 @@
                 </div>
             </div>
             </div>
+    </section>
+    <section class="s-6">
+        <div class="container">
+            <div class="flex-div-s6">
+                <div class="content">
+                    <img class="mySlides" src="images/imgslide-s3.svg" style="max-width:100%">
+                    <img class="mySlides" src="images/imgslide-s4.svg" style="max-width:100%">
+                    <img class="mySlides" src="images/imgslide-s1.svg" style="max-width:100%">
+                    <img class="mySlides" src="images/imgslide-s2.svg" style="max-width:100%">
+                    <div class="button-position">
+                        <button class="button" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="button"  onclick="plusDivs(1)">&#10095;</button>
+                    </div>
+                </div>
+                <div class="text-position-s6">
+                    <h3 class="s6-h3">Health Food</h3>
+                    <h2 class="s6-h2">ჯანსაღი კვება გამოიყურება ასე</h2>
+                    <p class="s6-p">მენიუს შერჩევა: დაწესებულების მენიუ ძირითადად შედგება საკვები ნივთიერებებით მდიდარი საკვებისგან, როგორიცაა ხილი, ბოსტნეული, მთლიანი მარცვლეული, უცხიმო ცილები და მცენარეული პროდუქტები. აქცენტი კეთდება დაბალანსებული კერძების შეთავაზებაზე შესაბამისი პორციებით.
+                    </p>
+                    <ul>
+                        <li>სპაგედი სოკოსთან</li>
+                        <li>ბოსტნეულის ასორტი</li>
+                        <li>იაპონური სალათა</li>
+                        <li>მჭლე ხორცის წვნიანი</li>
+                    </ul>
+                    <input class="input-s6"  type="button" value="Add card" onclick="alert('Hello world!')" >
+            </div>
+            </div>
+                <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+                    function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                    }
+                    function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length}
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                    }
+                    x[slideIndex-1].style.display = "block";  
+                    }
+                    </script>
+        </div>
     </section>
 </body>
 </html>
