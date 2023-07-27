@@ -51,7 +51,7 @@
         font-weight: 800;
         line-height: normal;
         max-width: 514px;
-        height: 230px;
+        // height: 230px;
         color: #274C5B;
         margin-bottom: 23px;
     }
@@ -132,7 +132,9 @@
     background-position: center;
     background-size: contain;
     padding-top: 247px;
-    padding-left: 100px;
+    padding-left: 90px;
+    display: flex;
+    flex-direction: column;
 }
 @media (max-width:1771px) {
     .frontimg {

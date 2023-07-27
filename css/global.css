@@ -489,7 +489,7 @@ option {
   font-style: normal;
   font-weight: 400;
   line-height: 165.4%; /* 29.772px */
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 @media (max-width: 720px) {
   .s-6 .container .text-position-s6 .s6-p {
@@ -657,10 +657,10 @@ option {
   background-color: #ecf9f0;
 }
 .s-5 .container .position-div-s5 input[type=text] {
-  padding: 15px;
+  padding: 16px;
   color: #274c5b;
   font-family: "Roboto", sans-serif;
-  font-size: 12px;
+  font-size: 13.5px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -1474,7 +1474,6 @@ option {
   font-weight: 800;
   line-height: normal;
   max-width: 514px;
-  height: 230px;
   color: #274C5B;
   margin-bottom: 23px;
 }
@@ -1559,7 +1558,14 @@ option {
   background-position: center;
   background-size: contain;
   padding-top: 247px;
-  padding-left: 100px;
+  padding-left: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media (max-width: 1771px) {
