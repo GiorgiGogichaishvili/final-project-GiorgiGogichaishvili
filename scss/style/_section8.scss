@@ -1,0 +1,181 @@
+.s-8 {
+    .container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        // border: 2px solid slateblue;
+        .text-title-position {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h2 {
+                @include fontcomtitle
+            }
+            h3 {
+                margin-bottom: 90px;
+                color: $Pri-s1;
+                @include fontcomH2
+            }
+            @media (max-width:630px) {
+                h3{
+                    font-size: 35px;
+                }
+            }
+            @media (max-width:460px) {
+                h3{
+                    font-size: 29px;
+                    text-align: center;
+                }
+            }
+        }
+        @media (max-width:1386px) {
+            .text-title-position {
+                margin-top: 200px;
+            }
+        }
+        @media (max-width:809px) {
+            .text-title-position {
+                margin-top: 0%;
+            }
+        }
+    }
+    @media (max-width:630px) {
+        .container{
+            width: 90%;
+        }
+    }
+    .flexgap2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 27px;
+        align-items: center;
+        justify-content: center;
+    .card-div-s8 {
+        width: 449px;
+        height: 615px;
+        // border: 2px solid aqua;
+        border-radius: 30px 30px 30px 30px;
+        color: #F9F8F8;
+        box-shadow:(0px 29px 44px rgba(150, 150, 150, 0.25));;
+        .photo-div {
+            background-image: url("../images/expert-1.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 486px;
+            // border: 1px solid green;
+            border-radius: 30px 30px 0px 0px;
+            }
+            .photo-div:hover {
+               background-size: 700px;
+               transition: 0.2s;
+               transform: 0,4s;
+              }
+            .photo-div-s2 {
+                background-image: url("../images/expert-2.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                height: 486px;
+                // border: 1px solid green;
+                border-radius: 30px 30px 0px 0px;
+                }
+                .photo-div-s2:hover {
+                    background-size: 560px;
+                    transition: 0.2s;
+                    transform: 0,4s;
+                   }
+                .photo-div-s3 {
+                    background-image: url("../images/expert-3.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    height: 486px;
+                    // border: 1px solid green;
+                    border-radius: 30px 30px 0px 0px;
+                    }
+                    .photo-div-s3:hover {
+                        background-size: 560px;
+                        transition: 0.2s;
+                        transform: 0,4s;
+                       }
+                    .photo-div-s4 {
+                        background-image: url("../images/expert-4.jpg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        height: 486px;
+                        // border: 1px solid green;
+                        border-radius: 30px 30px 0px 0px;
+                        }
+                        .photo-div-s4:hover {
+                            background-size: 600px;
+                            transition: 0.2s;
+                            transform: 0,4s;
+                           }
+                        .photo-div-s5 {
+                            background-image: url("../images/expert-5.jpg");
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            height: 486px;
+                            // border: 1px solid green;
+                            border-radius: 30px 30px 0px 0px;
+                            }
+                            .photo-div-s5:hover {
+                                background-size: 560px;
+                                transition: 0.2s;
+                                transform: 0,4s;
+                               }
+                            .photo-div-s6 {
+                                background-image: url("../images/expert-6.jpg");
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: cover;
+                                height: 486px;
+                                // border: 1px solid green;
+                                border-radius: 30px 30px 0px 0px;
+                                }
+                                .photo-div-s6:hover {
+                                    background-size: 800px;
+                                    transition: 0.2s;
+                                    transform: 0,4s;
+                                   }
+            .text-div-s8 {
+                display: flex;
+                flex-direction: column;
+            h2 {
+                margin-bottom: 2px;
+                padding-top: 25px;
+                padding-left: 28px;
+                color: $Pri-s1;
+                @include fontcomH6
+            }
+            h3 {
+                padding-left: 28px;
+                color: #7EB693;
+                font-family:'Yellowtail', cursive;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            }
+            .icon-div {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                // border: 1px solid red;
+            }
+            @media (max-width:330px) {
+                .icon-div{
+                    display: none;
+                }
+            }
+            img {
+                margin-right: 17px;
+            }
+        }
+    }
+}
