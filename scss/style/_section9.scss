@@ -1,0 +1,154 @@
+.s-9 {
+    padding-top: 229px;
+    margin-top: 176px;
+    height: 957px;
+    background-color:#F1F8F4;
+    .container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        // border: 2px solid orange;
+        div {
+            margin-bottom: 35px;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        @media (max-width:1401px) {
+            div {
+                justify-content: center;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+        }
+            .gallery-card {
+                background-image: url("../images/Organic-Juice.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                max-width: 460px;
+                height: 500px;
+                // border: 2px solid slateblue;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .title {
+                    max-width: 260px;
+                    height: 80px;
+                    display: flex;
+                    padding: 33px 83px 34px 83px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 20px;
+                    background: #FFF;
+                    h2 {
+                        color: #274C5B;
+                        font-family: "Roboto", sans-serif;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    @media (max-width:327px) {
+                        h2 {
+                        font-size: 15px;
+                        text-align: center;
+                        }
+                    }
+            }
+            @media (max-width:327px) {
+                .title {
+                    max-width: 220px;
+                    height: 70px;
+                    padding: 0px 0px 0px 0px;
+                }
+            }
+        }
+        .gallery-card-2 {
+            background-image: url("../images/Organic-Food.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            max-width: 460px;
+            height: 500px;
+            // border: 2px solid slateblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .title {
+                max-width: 260px;
+                height: 80px;
+                display: flex;
+                padding: 33px 83px 34px 83px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                background: #FFF;
+                h2 {
+                    color: #274C5B;
+                    font-family: "Roboto", sans-serif;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+            @media (max-width:327px) {
+                .title {
+                    max-width: 220px;
+                    height: 70px;
+                    padding: 0px 0px 0px 0px;
+                }
+            }
+        }
+        .gallery-card-3 {
+            background-image: url("../images/Nuts-Cookis.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            max-width: 460px;
+            height: 500px;
+            // border: 2px solid slateblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .title {
+                max-width: 260px;
+                height: 80px;
+                display: flex;
+                padding: 33px 83px 34px 83px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                background: #FFF;
+                h2 {
+                    color: #274C5B;
+                    font-family: "Roboto", sans-serif;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+            @media (max-width:327px) {
+                .title {
+                    max-width: 220px;
+                    height: 70px;
+                    padding: 0px 0px 0px 0px;
+                }
+            }
+        }
+    }
+    @media (max-width:1439px){
+        .container {
+            width: 90%;
+        }
+    }
+}
+@media (max-width:1401px) {
+    .s-9 {
+        height: auto;
+    }
+}
