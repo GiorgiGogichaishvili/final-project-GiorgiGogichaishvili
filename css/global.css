@@ -2531,7 +2531,7 @@ option {
   }
 }
 footer {
-  margin-top: 40px;
+  margin-top: 176px;
 }
 footer .container {
   max-width: 1440px;
@@ -2686,13 +2686,13 @@ footer .container .main-div .imgdiv .crave {
 }
 @media (max-width: 800px) {
   footer .container .main-div .imgdiv .crave {
-    margin-top: 30px;
+    margin-top: 50px;
   }
 }
 @media (max-width: 370px) {
   footer .container .main-div .imgdiv .crave {
     width: 100px;
-    margin-top: 30px;
+    margin-top: 50px;
   }
 }
 footer .container .main-div .imgdiv .img2 {
@@ -2702,12 +2702,12 @@ footer .container .main-div .imgdiv .img2 {
 }
 @media (max-width: 800px) {
   footer .container .main-div .imgdiv .img2 {
-    margin-top: 30px;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 370px) {
   footer .container .main-div .imgdiv .img2 {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     width: 240px;
   }
 }
