@@ -2532,6 +2532,7 @@ option {
 }
 footer {
   margin-top: 176px;
+  padding-bottom: 160px;
 }
 footer .container {
   max-width: 1440px;
